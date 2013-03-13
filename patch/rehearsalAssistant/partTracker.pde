@@ -16,7 +16,7 @@ class partTracker {
     fill(0, 10, 10); noStroke();
     rect(position.x, position.y, dimensions.x, dimensions.y);
     strokeWeight(3); fill(255, 0, 0);
-    line(lineLocation.x, lineLocation.y, linelocation.x, lineLocation.y + lineLength);
+    //line(lineLocation.x, lineLocation.y, linelocation.x, lineLocation.y + lineLength);
   }
   
   void update(int millis) {
